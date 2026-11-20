@@ -6,3 +6,5 @@
 .case.featured{display:block}.featured .case-content{padding:40px 44px}.featured .case-content>p:not(.eyebrow){max-width:850px}.featured .detail-copy{max-width:850px}.featured h3 br{display:none}.featured h3 br:after{content:" "}@media(max-width:720px){.featured .case-content{padding:26px}}
 
 .projects{border-top:1px solid var(--line)}.project-card .case-content>p{max-width:800px}.project-highlights{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin:28px 0 0}.project-highlights h4{font-size:17px;margin-bottom:8px}.project-highlights p{font-size:15px;color:var(--muted);max-width:420px}@media(max-width:720px){.project-highlights{grid-template-columns:1fr;gap:8px}}
+
+.projects-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.projects-grid .project-card{display:flex}.projects-grid .case-content{width:100%;display:flex;flex-direction:column}.projects-grid h3{font-size:26px}.projects-grid .tags{margin-top:auto;padding-top:16px}.projects-grid .text-link{align-self:flex-start}@media(max-width:720px){.projects-grid{grid-template-columns:1fr}}
